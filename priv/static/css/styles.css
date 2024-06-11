@@ -1,0 +1,61 @@
+/* #mission-box {
+  background-color: #fce6f4;
+} */
+
+#controls {
+  padding-left: 3rem!important;
+}
+
+.full-height {
+    height: calc(100vh - 40px);
+    overflow: hidden;
+}
+
+.infobox {
+  border: 2px solid pink;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: grey;
+}
+
+.infobox p {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+
+.infobox h1 {
+  font-size: 18px;
+  color: pink;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.question-mark {
+  font-size: 80px;
+  color: pink;
+  text-align: center;
+}
+
+.h-33 {
+  height: 33%;
+}
+
+.h-42 {
+  height: 42%;
+}
+
+.btn-flat {
+  border-radius: 0;
+  background-color: pink;
+  border: none;
+  color: white;
+}
+.btn-flat:hover {
+  background-color: gray;
+  color: pink;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
