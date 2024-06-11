@@ -10,10 +10,11 @@ The Mission is a food truck map visualizer that will save negotiation time by su
   * Danger Zone: Includes trucks with lapsed or rejected permits
 
 ## Stack
-  * Elixir/Phoenix API (single endpoint at this point: /api/trucks/)
+  * Elixir/Phoenix API (single endpoint at /api/trucks/)
   * SQLite DB: The file is included so you don't need to seed it, just run the project (Though the seeding script is included in /priv/repo/seeds.exs). Move to PostgreSQL for production.
   * Completely decoupled HTML/JS frontend: though it's served from the same project for ease of use. Access it at /
-  * Leaflet.JS to graph the trucks on a map
+  * Leaflet.js to graph the trucks on a map
+  * Basic test suite
 
 ## How to Run
 ```
