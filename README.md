@@ -16,7 +16,9 @@ The Mission is a food truck map visualizer that will save negotiation time by su
   * Leaflet.JS to graph the trucks on a map
 
 ## How to Run
-  * mix deps.get
-  * mix start
+```
+mix deps.get
+mix start
+```
 
 Enjoy!
