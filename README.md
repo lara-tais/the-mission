@@ -21,5 +21,6 @@ The Mission is a food truck map visualizer that will save negotiation time by su
 mix deps.get
 mix start
 ```
+Then try it out at http://localhost:4000/
 
 Enjoy!
